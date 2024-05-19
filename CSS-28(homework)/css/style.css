@@ -1,0 +1,45 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.block1{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.block2{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
+.block3{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block4{
+    font-family: "Times New Roman", Times, serif;
+    color: #1a0136;
+    font-size: 20px;
+    word-spacing: 30px;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-shadow: -1px 3px 2px #000;
+}
+
+.block5{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    letter-spacing: 5px;
+}
