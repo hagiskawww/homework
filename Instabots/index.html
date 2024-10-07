@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href=./fonts/stylesheet.css">
+    <title>InstaBots</title>
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__content">
+            <button class="header__burger-btn" id="burgerBtn" onclick="add()">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line small"></span>
+                <span class="header__burger-line small"></span>
+            </button>
+            <div class="header__logo logo">
+                <a href="#">Инстаботы</a>
+            </div>
+                <nav class="header__nav" id="headerNav">
+                    <ul class="header__nav-list">
+                        <li><a href="#advantages" class="header__nav-link text">О компании</a></li>
+                        <li><a href="#tariffs" class="header__nav-link text">Тарифы</a></li>
+                        <li><a href="#testimonials" class="header__nav-link text">Отзывы</a></li>
+                        <li><a href="#accordion" class="header__nav-link text">Q&A</a></li>
+                        <li><a href="#form" class="header__nav-link text">Обратная связь</a></li>
+                    </ul>
+                </nav>
+
+            <div class="header__btn">
+                <button class="btn" type="button">Вход и регистрация</button>
+            </div>
+            <div class="header__btn-mb">
+              <button type="button"><img src="img/icons/Frame%2050.png"></button>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="welcome">
+        <div class="container welcome__container">
+            <div class="welcome__inner">
+                <div class="welcome__content">
+                    <h1 class="welcome__title">Высокий уровень вовлечения представителей</h1>
+                    <form class="welcome__form">
+                        <label  for="email"></label>
+                        <input class="welcome__form-label" type="email" id="email" name="email" placeholder="Введите свой email:" required>
+                        <button class="welcome__form-btn" type="submit">Отправить</button>
+                    </form>
+                    <p class="welcome__text">Нажимая на кнопку вы соглашаетесь на обработку <br>
+                        <a href="#" class="welcome__text-personal">персональных данных</a></p>
+                    <div class="welcome__scroll">
+                        <img src="./img/icons/Scroll.png">
+                        <p class="welcome__scroll-text">Листайте дальше</p>
+                    </div>
+                </div>
+                <div class="welcome__img">
+                    <img class="welcome__img-picture" src="./img/Picture.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section >
+    <section class="advantages" id="advantages">
+        <div class="container container__advantages">
+            <h2 class="advantages__title">
+                Наши преимущества
+            </h2>
+            <div class="advantages__content">
+                <div class="advantages__cards">
+                    <div class="advantages__card">
+                        <div class="advantages__card-top">
+                            <img src="./img/icons/Emoji.png">
+                            <h3 class="advantages__card-title">
+                                Легко и просто
+                            </h3>
+                        </div>
+                        <p class="advantages__card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                    </div>
+                    <div class="advantages__card">
+                        <div class="advantages__card-top">
+                            <img src="./img/icons/Emoji2.png">
+                            <h3 class="advantages__card-title">
+                                Быстро и доступно
+                            </h3>
+                        </div>
+                        <p class="advantages__card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                    </div>
+                    <div class="advantages__card">
+                        <div class="advantages__card-top">
+                            <img src="./img/icons/Emoji3.png">
+                            <h3 class="advantages__card-title">
+                                А главное, качественно
+                            </h3>
+                        </div>
+                        <p class="advantages__card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container work__container">
+            <h2 class="work__title">Как мы работаем</h2>
+            <div class="work__inner">
+                <div class="work__img">
+                    <img src="./img/Picture%202.png" alt="">
+                </div>
+                <div class="work__content">
+                   <div class="work__separator">
+                       <p class="work__separator-text">Lorem ipsum</p>
+                       <p class="work__separator-text">Lorem ipsum</p>
+                       <p class="work__separator-text">Lorem ipsum</p>
+                   </div>
+                    <h2 class="work__content-title">Lorem ipsum dolor sit amet, consectetur.</h2>
+                    <div class="work__content-text">
+                        <p class="work__content-text">Semper sollicitudin ut cursus nunc eu ultricies.</p>
+                        <p class="work__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla tincidunt egestas nibh. Non orci, et massa sed vulputate proin. Eu euismod diam, arcu sit vitae nam. Tristique orci, ornare sit vel amet.</p>
+                        <p class="work__content-text">Ut elit dui iaculis malesuada in auctor dui. Sollicitudin varius vitae ut vitae lacus, sem dolor fermentum enim. Orci orci interdum pretium adipiscing augue sit nisl adipiscing.</p>
+                    </div>
+                    <div class="work__btn">
+                        <button class="btn" type="button">Забронировать звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tariffs" id="tariffs">
+        <div class="container tariffs__container">
+            <h2 class="tariffs__title">Наши тарифы </h2>
+            <div class="tariffs__cards">
+                <div class="tariffs__card">
+                        <h3 class="tariffs__card-title">
+                            Эконом
+                        </h3>
+                        <p class="tariffs__card-price">2 990 руб<span class="tariffs__card-v">/месяц</span></p>
+                        <div class="tariffs__card-services">
+                            <img src="./img/icons/Component%201.svg">
+                            <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Malesuada gravida nisi sit felis odio.</p>
+                        </div>
+                        <div class="tariffs__card-services">
+                            <img src="./img/icons/Component%202.svg">
+                            <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="tariffs__card-services">
+                            <img src="./img/icons/Component%202.svg">
+                            <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="tariffs__card-services tariffs__card-services-bot">
+                            <img src="./img/icons/Component%202.svg">
+                            <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Malesuada gravida nisi sit felis odio.</p>
+                        </div>
+                        <div class="tariffs__btn-ob">
+                            <button class="tariffs__btn btn" type="button">Узнать подробнее</button>
+                        </div>
+                    </div>
+                <div class="tariffs__card">
+                    <h3 class="tariffs__card-title">
+                        Стандарт
+                    </h3>
+                    <p class="tariffs__card-price">4 990 руб<span class="tariffs__card-v">/месяц</span></p>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%202.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services tariffs__card-services-bot">
+                        <img src="./img/icons/Component%202.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__btn-ob">
+                        <button class="tariffs__btn btn" type="button">Узнать подробнее</button>
+                    </div>
+                </div>
+                <div class="tariffs__card">
+                    <h3 class="tariffs__card-title">
+                        Экстра
+                    </h3>
+                    <p class="tariffs__card-price">8 990 руб<span class="tariffs__card-v">/месяц</span></p>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services tariffs__card-services-bot">
+                        <img src="./img/icons/Component%202.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__btn-ob">
+                        <button class="tariffs__btn btn" type="button">Узнать подробнее</button>
+                    </div>
+                </div>
+                <div class="tariffs__card">
+                    <h3 class="tariffs__card-title">
+                        Премиальный
+                    </h3>
+                    <p class="tariffs__card-price">12 990 руб<span class="tariffs__card-v">/месяц</span></p>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="tariffs__card-services tariffs__card-services-bot">
+                        <img src="./img/icons/Component%201.svg">
+                        <p class="tariffs__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio.</p>
+                    </div>
+                    <div class="tariffs__btn-ob">
+                        <button class="tariffs__btn btn" type="button">Узнать подробнее</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container testimonials__container">
+            <h2 class="testimonials__title">
+                Отзывы
+            </h2>
+            <div class="testimonials__slider swiper mySwiper">
+                <div class="testimonials__wrapper swiper-wrapper">
+                    <div class="testimonials__slide">
+                            <div class="testimonials__slide-top">
+                                <img class="testimonials__slide-img" src="./img/icons/image%205.png" alt="">
+                                <div class="testimonials__slide-name">Олежка</div>
+                                <p class="testimonials__slide-data">03.06.2021</p>
+                            </div>
+                            <p class="testimonials__slide-coment">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit
+                                felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor.
+                                Congue arcu turpis est, aliquet porttitor.
+                            </p>
+                            <div class="testimonials__slide-stars">
+                                <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                                <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                                <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                                <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                                <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                            </div>
+                        </div>
+                    <div class="testimonials__slide swiper-slide">
+                        <div class="testimonials__slide-top">
+                            <img class="testimonials__slide-img" src="./img/icons/image%206.png" alt="">
+                            <div class="testimonials__slide-name">Инокентий</div>
+                            <p class="testimonials__slide-data">03.06.2021</p>
+                        </div>
+                        <p class="testimonials__slide-coment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                        <div class="testimonials__slide-stars">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                        </div>
+                    </div>
+                    <div class="testimonials__slide swiper-slide">
+                        <div class="testimonials__slide-top">
+                            <img class="testimonials__slide-img" src="./img/icons/image%208.png" alt="">
+                            <div class="testimonials__slide-name">Олежка</div>
+                            <p class="testimonials__slide-data">03.06.2021</p>
+                        </div>
+                        <p class="testimonials__slide-coment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                        <div class="testimonials__slide-stars">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                        </div>
+                    </div>
+                    <div class="testimonials__slide swiper-slide">
+                        <div class="testimonials__slide-top">
+                            <img class="testimonials__slide-img" src="./img/icons/image%205.png" alt="">
+                            <div class="testimonials__slide-name">Олежка</div>
+                            <p class="testimonials__slide-data">03.06.2021</p>
+                        </div>
+                        <p class="testimonials__slide-coment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                        <div class="testimonials__slide-stars">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                        </div>
+                    </div>
+                    <div class="testimonials__slide swiper-slide">
+                        <div class="testimonials__slide-top">
+                            <img class="testimonials__slide-img" src="./img/icons/image%206.png" alt="">
+                            <div class="testimonials__slide-name">Серега</div>
+                            <p class="testimonials__slide-data">03.06.2021</p>
+                        </div>
+                        <p class="testimonials__slide-coment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                        <div class="testimonials__slide-stars">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                        </div>
+                    </div>
+                    <div class="testimonials__slide swiper-slide">
+                        <div class="testimonials__slide-top">
+                            <img class="testimonials__slide-img" src="./img/icons/image%206.png" alt="">
+                            <div class="testimonials__slide-name">Олежка</div>
+                            <p class="testimonials__slide-data">03.06.2021</p>
+                        </div>
+                        <p class="testimonials__slide-coment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.
+                        </p>
+                        <div class="testimonials__slide-stars">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star%201.png" alt="" class="testimonials__slide-star">
+                            <img src="./img/icons/Star_Not%20Active.png" alt="" class="testimonials__slide-star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials__btn-next swiper-button-next"></div>
+            <div class="testimonials__btn-prev swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container sale__container">
+            <div class="sale__inner">
+                <img class="sale__img" src="./img/PictureSale.png">
+                <div class="sale__content">
+                    <div class="sale__title">
+                        Получите самую выгодную цену
+                        на планете
+                    </div>
+                    <form class="sale__form">
+                        <label  for="email"></label>
+                        <input class="sale__form-label" type="email" name="email" placeholder="Введите свой email:" required>
+                        <button class="sale__form-btn" type="submit">Отправить</button>
+                    </form>
+                    <p class="sale__text">Нажимая на кнопку вы соглашаетесь на обработку <br>
+                        <a href="#" class="sale__text-personal">персональных данных</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="accordions" id="accordion">
+        <div class="container accordion__container">
+            <h2 class="accordion__title">
+                Часто задаваемые вопросы
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion__item accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div class="accordion__btn-title">Первый вопрос</div>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit.                         </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="accordion__btn-title">Второй вопрос</div>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit.                         </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div class="accordion__btn-title">Третий вопрос</div>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit.                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="form">
+        <div class="container form__container">
+            <div class="form__inner">
+                <div class="form__content">
+                    <h2 class="form__title">
+                    Обратная связь
+                </h2>
+                    <p class="form__text">
+                        Поговорите с одним из наших сотрудников, чтобы узнать, сколько мы можем получить для вас целевой
+                        аудитории за месяц с минимальными усилиями с вашей стороны
+                    </p>
+                    <form class="form__main" action="#" method="post">
+                        <label for="email"></label>
+                        <input class="form-label" type="email" name="email" placeholder="Введите свой email:" required>
+
+                        <label for="phone"></label>
+                        <input class="form__label" type="tel" id="phone" name="phone"
+                               placeholder="Номер мобильного телефона" required>
+
+                        <label for="instagram"></label>
+                        <input class="form__label" type="text" id="instagram" name="instagram"
+                               placeholder="Никнейм в Instagram" required>
+
+                        <label for="question"></label>
+                        <textarea class="form__label-text" id="question" name="question" rows="4"
+                                  placeholder="Что вы бы хотели спросить о росте в Instagram" required></textarea>
+
+                        <div class="form__submit">
+                            <button class="btn btn__form" type="submit">Отправить заявку</button>
+                            <p class="btn__form-text">Нажимая на кнопку вы соглашаетесь на обработку
+                                <a href="#" class="form__text-personal">персональных данных</a></p>
+                        </div>
+                    </form>
+                </div>
+                <img class="form__img" src="./img/Picturecont.png">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__inner">
+            <div class="footer__content-left">
+                <h6 class="footer__content-title">
+                    Инстаботы
+                </h6>
+                <p class="footer__content-text">
+                    © 2021 Copyright reserved
+                    Instabots
+                </p>
+            </div>
+            <div class="footer__content-right">
+                <a href="#" class="footer__content-link">
+                    Вернуться наверх
+                    <img src="./img/icons/Arrow.png" alt="" class="footer__content-img">
+                </a>
+            </div>
+            <div class="footer__content-right-mb">
+                <a href="#" class="footer__content-link">
+                    Наверх
+                    <img src="./img/icons/Arrow.png" alt="" class="footer__content-img">
+                </a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/testimonials.js"></script>
+</body>
+</html>

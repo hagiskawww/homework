@@ -1,0 +1,74 @@
+.accordions {
+    background: url("../img/bc 5.png") 50% 50% no-repeat;
+    padding-bottom: 80px;
+}
+
+.accordion__title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.accordion-item {
+    margin-bottom: 16px;
+
+}
+
+.accordion-item {
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: -2px 4px 20px 0px rgba(25, 25, 25, 0.03);
+    backdrop-filter: blur(240px);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.accordion-header {
+    border-radius: 16px 16px 0px 0px;
+
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color:#ffffff;
+    box-shadow: none;
+}
+
+.accordion-button button {
+}
+
+.accordion__btn-title {
+    color: rgb(26, 26, 26);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 112%;
+}
+
+.accordion-button::after {
+    content: '';
+    background-image: url("../img/icons/Component 1.png");
+    font-size: 18px;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/icons/Component 1 (1).png");
+}
+
+.accordion-collapse {
+    border-radius: 0 0 16px 16px;
+    color: rgb(128, 128, 128);
+}
+
+.collapse {
+}
+
+.show {
+}
+
+.accordion-body {
+}
+
+.collapsed {
+}
