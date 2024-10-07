@@ -5,6 +5,16 @@
     line-height: 135%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+
 .container {
     max-width: 1310px;
     margin: 0 auto;

@@ -4,6 +4,8 @@
 
 .welcome__inner {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .welcome__content {
@@ -85,6 +87,6 @@
 }
 
 .welcome__img-picture {
-    width: 628px;
-    height: 720px;
+    width: 545px;
+    height: 490px;
 }

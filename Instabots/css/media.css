@@ -7,6 +7,11 @@
         position: absolute;
     }
 
+    .welcome__img-picture {
+        width: 545px;
+        height: 490px;
+    }
+
     /*Advantages */
     .advantages__card-text {
         max-width: 340px;
@@ -178,17 +183,13 @@
     }
 
     .welcome__img img {
-        position: absolute;
-        top: 53%;
-        left: 28%;
-        width: 555px;
-        height: 600px;
+    display: none;
     }
 
 /* advantages */
 
 .advantages {
-    padding-top: 22%;
+    padding-top: 10%;
 }
 
 .advantages__cards {
@@ -267,7 +268,6 @@
 /*advantages*/
 
     .advantages__title {
-        padding-top: 67%;
     }
 
 /*    Work*/
@@ -359,12 +359,16 @@
         height: 326px;
     }
 
+    .welcome__img-picture {
+        display: none;
+    }
+
 
 /*   Adv */
 
     .advantages__title {
         font-size: 18px;
-        padding-top: 50%;
+        padding-top: 0%;
     }
 
     .advantages__card-top {
@@ -474,6 +478,12 @@
 
 /*    Form*/
 
+    .form__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .form__title {
         color: rgb(26, 26, 26);
         font-size: 26px;
@@ -496,12 +506,72 @@
         font-weight: 700;
     }
 
+    .form__submit {
+        flex-direction: column;
+    }
+
+
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+
+    .welcome__title {
+        font-size: 36px;
+    }
+
+
+    .welcome__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
 
     .testimonials {
     display: none;
     }
 
+    .form__text {
+        width: 300px;
+    }
+
+    .form__label {
+        width: 80%;
+    }
+
+    .form-label {
+        width: 80%;
+    }
+
+    .form__label-text {
+        width: 80%;
+    }
+
+    .sale {
+        display: none;
+    }
+
 }
+
+@media (max-width: 400px) {
+
+    .welcome__title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .welcome__form-label {
+        width: 284px;
+    }
+
+
+    .testimonials {
+        display: none;
+    }
+
+    .work__img {
+        display: none;
+    }
+
+}
+
