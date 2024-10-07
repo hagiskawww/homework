@@ -1,0 +1,92 @@
+.welcome {
+    background: url("../img/bc1.png") 50% 50% no-repeat;
+}
+
+.welcome__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome__content {
+
+}
+
+.welcome__title {
+    padding-top: 120px;
+    max-width: 628px;
+    padding-bottom: 40px;
+}
+
+.welcome__form {
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.welcome__form-label {
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 0 20px 16px;
+    width: 465px;
+}
+
+.welcome__form-btn {
+    position: absolute;
+    left: 51%;
+    top: 13%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 12px 24px 12px 24px;
+    color: rgb(71, 84, 235);
+
+    transition: .6s;
+}
+
+.welcome__form-btn:hover {
+    background: rgb(71, 84, 235);
+    color: rgb(255, 255, 255);
+}
+
+.welcome__text {
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    line-height: 135%;
+
+    padding-bottom: 126px;
+}
+
+.welcome__text-personal {
+    color: rgb(80, 93, 236);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+.welcome__scroll {
+    display: flex;
+    gap: 8px;
+    position: relative;
+}
+
+.welcome__scroll img {
+    width: 24px;
+    height: 32px;
+}
+
+.welcome__scroll-text {
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.welcome__img-picture {
+}
+
+.welcome__img-picture {
+    width: 545px;
+    height: 490px;
+}

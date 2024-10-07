@@ -1,0 +1,91 @@
+.tariffs {
+}
+
+.container {
+}
+
+.tariffs__container {
+}
+
+.tariffs__title {
+    padding: 80px 0 40px 0;
+}
+
+.tariffs__cards {
+    padding-bottom: 80px;
+}
+
+.tariffs__cards {
+    display: flex;
+    gap: 24px;
+}
+
+.tariffs__card {
+    box-sizing: border-box;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px 0px rgba(25, 25, 25, 0.05);
+    backdrop-filter: blur(24px);
+    background: rgba(255, 255, 255, 0.5);
+
+    width: 318px;
+}
+
+.tariffs__card-content {
+    padding: 20px 20px 24px 24px;
+
+    position: relative;
+}
+
+.tariffs__card-title {
+    padding-bottom: 8px;
+}
+
+.tariffs__card-price {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    color: rgb(71, 84, 235);
+
+    padding-bottom: 44px;
+}
+
+.tariffs__card-v {
+    color: rgb(128, 128, 128);
+}
+
+.tariffs__card-services {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+
+    padding-bottom: 16px;
+}
+
+.tariffs__card-services-bot {
+    padding-bottom: 32px;
+}
+
+.tariffs__card-text {
+    width: 224px;
+    height: 96px;
+
+}
+
+.tariffs__btn-ob{
+    display: flex;
+    justify-content: center;
+}
+
+.tariffs__btn {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+    color: #4754EB;
+}
+
+.tariffs__btn:hover {
+    background: #4754EB;
+
+    color: rgb(255, 255, 255);
+}

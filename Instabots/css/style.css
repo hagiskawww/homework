@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "global.css";
+@import "fonts/stylesheet.css";
+
+/*=======================================*/
+
+@import "header.css";
+@import "welcome.css";
+@import "advantages.css";
+@import "work.css";
+@import "tariffs.css";
+@import "testimonials.css";
+@import "sale.css";
+@import "accordion.css";
+@import "form.css";
+@import "footer.css";
+@import "media.css";

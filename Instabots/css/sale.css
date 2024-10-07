@@ -1,0 +1,78 @@
+.sale {
+    padding-top: 88px;
+}
+
+.container {
+}
+
+.sale__container {
+}
+
+.sale__inner {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.sale__img {
+    width: 628px;
+    height: 640px;
+}
+
+.sale__content {
+}
+
+.sale__title {
+    color: rgb(26, 26, 26);
+    font-size: 56px;
+    font-weight: 700;
+
+    padding-bottom: 40px;
+}
+
+.sale__form {
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.sale__form-label {
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgba(248, 248, 248, 0.5);
+    padding: 20px 0 20px 16px;
+    width: 465px;
+}
+
+.sale__form-btn {
+    position: absolute;
+    left: 51%;
+    top: 13%;
+
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 12px 24px 12px 24px;
+    color: rgb(71, 84, 235);
+
+    transition: .6s;
+}
+
+.sale__form-btn:hover {
+    background: rgb(71, 84, 235);
+    color: rgb(255, 255, 255);
+}
+
+.sale__text {
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    line-height: 135%;
+
+    padding-bottom: 126px;
+}
+
+.sale__text-personal {
+    color: rgb(80, 93, 236);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 135%;
+}
